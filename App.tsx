@@ -172,7 +172,7 @@ function Home({ query, setQuery, activeFilter, setActiveFilter, filteredJobs, sa
     <FilterRow active={activeFilter} onSelect={setActiveFilter} />
     <View style={styles.insightCard}>
       <View style={styles.insightIcon}><Text style={styles.insightEmoji}>✦</Text></View>
-      <View style={styles.insightText}><Text style={styles.insightTitle}>Your profile is strong</Text><Text style={styles.insightBody}>Add one project link to improve your match score.</Text></View>
+      <View style={styles.insightText}><Text style={styles.insightTitle}>Your profile is strong</Text><Text style={styles.insightBody}>Your project portfolio is helping you stand out.</Text></View>
       <Text style={styles.arrow}>›</Text>
     </View>
     <SectionTitle title="Recommended for you" action="See all" onPress={onDiscover} />
@@ -181,7 +181,7 @@ function Home({ query, setQuery, activeFilter, setActiveFilter, filteredJobs, sa
     <View style={styles.activityRow}>
       <Stat label="Applied" value={String(applied.length).padStart(2, '0')} color="#E0EEFF" />
       <Stat label="Saved" value={String(saved.length).padStart(2, '0')} color="#EEE8FF" />
-      <Stat label="Profile" value="82%" color="#DFF6EC" />
+      <Stat label="Profile" value="94%" color="#DFF6EC" />
     </View>
   </ScrollView>;
 }
