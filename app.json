@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Notby",
+    "slug": "notby",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "notby",
+    "splash": {
+      "backgroundColor": "#111827"
+    },
+    "android": {
+      "package": "com.yumia38.notby"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yumia38.notby"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
